@@ -1,0 +1,8 @@
+- name: scienceworld_agent
+  _target_: recipe.scienceworld.scienceworld_agent_flow.ScienceWorldAgentFlow
+  max_steps: 30
+  max_episode_steps: 100
+  env_pool_size: 16
+  simplification: "easy"
+  success_reward: 10.0
+  prompt_variant: "no_think"

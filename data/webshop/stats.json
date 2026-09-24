@@ -1,0 +1,9 @@
+{
+  "input_dir": "<external WebShop data>",
+  "output_dir": "data/webshop",
+  "num_products": 1000,
+  "num_goals": 6910,
+  "train_rows": 6710,
+  "test_rows": 200,
+  "seed": 233
+}
